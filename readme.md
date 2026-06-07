@@ -68,7 +68,7 @@ Version
 eksctl version
 ```
 
-## Step 3: Install and Set Up EKSCTl
+## Step 3: Install and Set Up EKSCTL
 
 ```bash
 curl --silent --location \
