@@ -140,8 +140,8 @@ docker compose up -d
 docker build -t <DOCKER_USERNAME>/todo-backend-flask:latest ./backend
 docker push <DOCKER_USERNAME>/todo-backend-flask:latest
 
-docker build -t <DOCKER_USERNAME>/todo-backend-react:latest ./frontend
-docker push <DOCKER_USERNAME>/todo-backend-react:latest
+docker build -t <DOCKER_USERNAME>/todo-frontend-react:latest ./frontend
+docker push <DOCKER_USERNAME>/todo-frontend-react:latest
 ```
 
 ## Step 8: Create Kubernetes Namespace
